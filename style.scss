@@ -1,0 +1,35 @@
+body{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    .container{
+        header{
+            h1{
+                text-align: center;
+            }
+        }
+        main{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            aside{
+                grid-column: span 1;
+                background: rgb(63,94,251);
+                background: linear-gradient(124deg, rgba(63,94,251,1) 0%, rgba(240,32,197,1) 81%);
+            }
+            section{
+                grid-column: span 3;
+                background: rgb(255,84,0);
+                background: linear-gradient(242deg, rgba(255,84,0,1) 0%, rgba(83,35,35,1) 100%);
+                h2{
+                    text-align: center;
+                    color: #D9AFD9;
+                }
+                p{
+                    font-size: 25px;
+                    letter-spacing: 5px;
+                    color: #97D9E1;
+                    margin:20px;
+                }
+            }
+        }
+    }
+}

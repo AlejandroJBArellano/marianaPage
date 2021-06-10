@@ -1,0 +1,41 @@
+body {
+  background-color: #D9AFD9;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#D9AFD9), to(#97D9E1));
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+body .container header h1 {
+  text-align: center;
+}
+
+body .container main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+body .container main aside {
+  grid-column: span 1;
+  background: #3f5efb;
+  background: linear-gradient(124deg, #3f5efb 0%, #f020c5 81%);
+}
+
+body .container main section {
+  grid-column: span 3;
+  background: #ff5400;
+  background: linear-gradient(242deg, #ff5400 0%, #532323 100%);
+}
+
+body .container main section h2 {
+  text-align: center;
+  color: #D9AFD9;
+}
+
+body .container main section p {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #97D9E1;
+  margin: 20px;
+}
+/*# sourceMappingURL=style.css.map */
